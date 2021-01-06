@@ -1,0 +1,22 @@
+@mixin login ($w, $h, $pt, $ff, $fs, $c, $td) {
+    width: $w;
+    height: $h;
+    padding-top: $pt;
+    font-family: $ff;
+    font-size: $fs;
+    color: $c;
+    text-decoration: $td;
+}
+
+@mixin signup ($w, $h, $br, $b, $ta, $lh, $ff, $fs, $c, $td) {
+    width: $w;
+    height: $h;
+    border-radius: $br;
+    border: $b;
+    text-align: $ta;
+    line-height: $lh;
+    font-family: $ff;
+    font-size: $fs;
+    color: $c;
+    text-decoration: $td;
+}
